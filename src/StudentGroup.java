@@ -1,3 +1,4 @@
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
@@ -9,23 +10,34 @@ import java.util.stream.Collectors;
 public class StudentGroup implements GroupOperationService {
 
 	private Student[] students;
+	int arr=new arr{1,2,3,4,5};
+	int length=new arr.length;
+	private int index;
+
+
+
+
 	
 	public StudentGroup(int length) {
+	super();
 
 	}
 
 	@Override
 	public Student[] getStudents() {
-
+	return arr;
 	}
 
 	@Override
 	public void setStudents(Student[] students) {
-
+	for(i=0;i<=length-1;i++)
+	this.arr=arr;
 	}
 
 	@Override
 	public Student getStudent(int index) {
+	int count=0;
+
 
 	}
 
